@@ -24,3 +24,18 @@ Route::get('/product/{id}', 'productController@detail');
 Route::post('/product', 'productController@store');
 Route::put('/product/{id}','productController@update');
 Route::delete('/product/{id}', 'productController@destroy');
+
+Route::get('/product', 'productController)show');
+Route::get('/product/{id}', 'productController@detail');
+Route::post('/product', 'productController@store');
+Route::put('/product/{id}','productController@update');
+Route::delete('/product/{id}', 'productController@destroy');
+
+Route::get('/product', 'productController)show');
+Route::get('/product/{id}', 'productController@detail');
+Route::post('/product', 'productController@store');
+Route::put('/product/{id}','productController@update');
+Route::delete('/product/{id}', 'productController@destroy');
+
+}
+);
